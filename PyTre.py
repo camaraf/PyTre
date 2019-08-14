@@ -5,7 +5,6 @@ import pickle
 import scipy.spatial
 import matplotlib.cm as cm
 import scipy.stats
-from pprint import pprint
 import tensorflow as tf
 import keras
 import math
@@ -16,7 +15,6 @@ from keras.layers.core import Dense, Activation, Dropout, Flatten
 from keras.layers.embeddings import Embedding
 from keras.layers.recurrent import LSTM
 from keras.layers import BatchNormalization, Input, concatenate
-import types
 import tempfile
 import keras.models
 from keras.models import Model, Sequential, load_model
